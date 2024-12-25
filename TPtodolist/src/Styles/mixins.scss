@@ -1,0 +1,25 @@
+@mixin flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin gridcenter{
+    display: grid;
+    place-items: center;
+}
+
+@mixin topcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@mixin button{
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}

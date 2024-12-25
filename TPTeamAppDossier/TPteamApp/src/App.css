@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+
+
+}
+
+body{
+    min-height:100vh ;
+    padding: 50px 15px 20px;
+}
+
+
+
+input{
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding:0 20px ;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+}
+
+p{
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+.Btns{
+    width: 100%;
+    margin: 50px auto 100px;
+    text-align: center;
+    /* font-size: 1.2rem; */
+
+}
+
+.Btns button{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    padding: 1rem;
+    color: #fff;
+    background-color: #0d0f68;
+    cursor: pointer;
+}
+
+.userTable{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    background-color: #fff;
+
+}
+th{
+    border: 1px solid #ddd;
+    padding: 10px 1.2rem;
+    background-color: #090a4a;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+td{
+    border: 1px solid #ddd;
+    cursor: pointer;
+    text-align: left;
+    padding: 10px 1.2rem;
+    font-size: 1rem;
+}
+tr{
+    transition: 0.02s ease-in-out;
+}
+tr:nth-child(2n){
+    background-color: #fcf9f9;
+}
+tr:nth-child(n):hover{
+    background-color: rgba(0, 0, 255,0.1);
+
+}
+
+
+.listSearch{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.listSearch th,.listSearch td{
+    padding: 2px 1rem;
+}
+
+
+

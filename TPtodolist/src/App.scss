@@ -1,0 +1,19 @@
+@import './Styles/mixins.scss';
+@import './Styles/variables.scss';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    padding-top: 8rem;
+    @include flexcenter;
+}
